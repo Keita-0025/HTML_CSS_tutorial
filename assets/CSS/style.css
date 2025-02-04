@@ -12,6 +12,30 @@ body {
 }
 
 /*
+grid
+*/
+.grid {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+.grid-item {
+  list-style: none;
+}
+
+.grid-col-2 > .grid-item {
+  width: 50%;
+}
+.grid-col-3 > .grid-item {
+  width: 33.3333%;
+}
+.grid-col-4 > .grid-item {
+  width: 25%;
+}
+
+/*
 section
 */
 .section {
@@ -25,6 +49,10 @@ section
   font-weight: bold;
   text-align: center;
   margin: 0 0 40px;
+}
+.section-button {
+  text-align: center;
+  margin: 40px 0; 
 }
 
 /*about*/
@@ -45,44 +73,101 @@ section
 } */
 
 /*
-grid
-*/
-.grid{
-  display: flex;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  justify-content: center;
-}
-.grid-item{
-  list-style: none;
-}
-
-.grid-col-2 > .grid-item{
-  width: 50%;
-}
-.grid-col-3 > .grid-item{
-  width: 33.3333%;
-}
-.grid-col-4 > .grid-item{
-  width: 25%;
-}
-
-/*
 future
 */
-.future{
+.future {
   text-align: center;
   padding: 0 15px;
 }
-.future-headline{
+.future-headline {
   font-weight: bold;
 }
-.future-img{
+.future-img {
   margin: 0 0 15px;
 }
 
-.future-description{
+.future-description {
   margin: 0;
   text-align: left;
+}
+
+/*
+card
+*/
+.card {
+  padding: 0 10px;
+}
+.card-link {
+  display: block;
+  color: #121212;
+  text-decoration: none;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+.card-link:hover {
+  background-color:#eee;
+}
+.card-label {
+  position: absolute;
+  background-color: #999;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 10px;
+  top: 0;
+  left: 0;
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+.card-info {
+  padding: 5px 10px;
+}
+/* .card-time {
+} */
+.card-headline {
+  margin: 0 ;
+}
+.card-description {
+  margin: 0;
+}
+
+/*
+avator
+*/
+.avator {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+}
+.avator-name {
+  font-weight: bold;
+  padding-left: 15px;
+}
+.avator-img {
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/*
+button
+*/
+.button {
+  display: inline-block;
+  color: #fff;
+  background-color: #121212;
+  padding: 15px 60px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 5px 5px 0 #bbb;
+  transition: box-shadow 0.3s ease;
+}
+.button:hover {
+  box-shadow: 0 0 0 #bbb;
 }
