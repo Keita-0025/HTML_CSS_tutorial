@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+/*
+Base
+*/
+body {
+  font-family: "Noto Sans JP", sans-serif, "Helvetica Neue", Arial,
+    "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color:#121212;
+
+}
+
+p {
+  color: red;
+}
