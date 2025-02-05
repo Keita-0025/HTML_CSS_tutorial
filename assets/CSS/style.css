@@ -251,3 +251,50 @@ works
 .works > img {
   margin: 0 15px;
 }
+
+/*
+footer
+*/
+.footer {
+  background-color: #121212;
+  color: #fff;
+}
+.footer-map {
+  margin: 0;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-map > iframe {
+  width: 60%;
+}
+
+.footer-map-info {
+  width: 40%;
+  padding: 20px;
+}
+.footer-maplogo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.footer-mapaddress {
+  font-style: normal;
+  margin: 25px 0;
+
+}
+.footer-mapaddress > a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.footer-line {
+  border-color: #444;
+}
+.footer-copyright {
+  display: block;
+  text-align: center;
+  padding:10px;
+}
