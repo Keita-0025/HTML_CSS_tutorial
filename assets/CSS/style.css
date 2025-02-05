@@ -70,6 +70,35 @@ section
   margin: 40px 0;
 }
 
+/*
+hero
+*/
+.hero {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.hero > strong {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 120px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  z-index: 200;
+}
+
+.hero > video {
+  position: absolute;
+  width: auto;
+  height: 110%;
+  z-index: 100;
+}
+
 /*about*/
 .about {
   margin: 0;
@@ -283,7 +312,6 @@ footer
 .footer-mapaddress {
   font-style: normal;
   margin: 25px 0;
-
 }
 .footer-mapaddress > a {
   color: #fff;
@@ -296,5 +324,5 @@ footer
 .footer-copyright {
   display: block;
   text-align: center;
-  padding:10px;
+  padding: 10px;
 }
